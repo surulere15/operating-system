@@ -77,8 +77,24 @@ class BybitFuturesTrader:
         """Get account balance"""
         try:
             balance = self.exchange.fetch_balance()
-            usdt_balance = balance['USDT']['free'] if 'USDT' in balance else 0
 
+            # For Bybit Unified Trading Account, balance is in 'info' field
+            if 'info' in balance and 'result' in balance['info']:
+                result = balance['info']['result']
+                if 'list' in result and len(result['list']) > 0:
+                    account = result['list'][0]
+                    total_equity = float(account.get('totalEquity', 0))
+                    available_balance = float(account.get('totalAvailableBalance', total_equity))
+
+                    return {
+                        'total': total_equity,
+                        'available': available_balance,
+                        'margin_used': total_equity - available_balance,
+                        'positions': len(self.positions)
+                    }
+
+            # Fallback to standard CCXT parsing
+            usdt_balance = balance['USDT']['free'] if 'USDT' in balance else 0
             return {
                 'total': usdt_balance,
                 'available': usdt_balance - self.calculate_margin_used(),
