@@ -33,7 +33,7 @@ class CryptoSignalBot:
             'XRP/USDT',
             'ADA/USDT',
             'AVAX/USDT',
-            'MATIC/USDT',
+            'POL/USDT',
             'DOT/USDT',
             'LINK/USDT'
         ]
