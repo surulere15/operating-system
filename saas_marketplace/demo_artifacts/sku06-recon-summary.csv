@@ -1,0 +1,8 @@
+metric,value
+stripe_rows,2
+bank_rows,2
+stripe_total,150.00
+bank_total,149.99
+delta,0.01
+unmatched_stripe,1
+unmatched_bank,1

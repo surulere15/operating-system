@@ -1,0 +1,8 @@
+# File: monitoring/prometheus.yml
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+  - job_name: 'regulatory-api'
+    static_configs:
+      - targets: ['regulatory_api:8000'] # Assumes the FastAPI app container will be named 'regulatory_api'

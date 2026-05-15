@@ -1,0 +1,15 @@
+[
+  {
+    "vendor": "cmmfqugu1000ti3ur1qinydgr-vendor_contract.txt",
+    "noticeDays": 60,
+    "flags": {
+      "autoRenew": true,
+      "escalator": true
+    },
+    "evidenceSnippets": [
+      "This Agreement shall automatically renew for successive 12-month periods unless either party provides 60 days written notice prior to the Renewal Date of March 31, 2026. Price increase: CPI + 5% upon renewal.",
+      "onth periods unless either party provides 60 days written notice prior to the Renewal Date of March 31, 2026. Price increase: CPI + 5% upon renewal."
+    ],
+    "confidence": 0.5
+  }
+]

@@ -1,0 +1,9 @@
+{
+  "name": "public_crowd_investors_global_seeded",
+  "prompt": "Find public crowd investors communities (crypto + crowdfunding) global",
+  "limit": 50,
+  "created_at": "2026-02-26T06:15:47.688012Z",
+  "seeds_count": 7,
+  "status": "DONE",
+  "notes": "raw digging from public web. emails/phones not verified."
+}

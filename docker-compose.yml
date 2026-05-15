@@ -1,0 +1,20 @@
+version: '3.8'
+
+services:
+  mev-scanner:
+    build: .
+    container_name: quantum-mev-scanner
+    command: python scripts/mev_scanner.py
+    env_file: .env
+    restart: always
+    volumes:
+      - ./logs:/app/logs
+
+  dex-monitor:
+    build: .
+    container_name: quantum-dex-monitor
+    command: python scripts/dex_price_monitor.py
+    env_file: .env
+    restart: always
+    depends_on:
+      - mev-scanner

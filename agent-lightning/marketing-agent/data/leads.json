@@ -1,0 +1,105 @@
+{
+  "leads": [
+    {
+      "id": "LEAD-001",
+      "name": "Shayne Coplan",
+      "company": "Polymarket",
+      "role": "CEO",
+      "channel": "twitter_dm",
+      "status": "sent",
+      "notes": "DM sent with wirebet.com link",
+      "created": "2026-04-03T10:15:14.278567+00:00",
+      "updated": "2026-04-03T10:15:14.278843+00:00",
+      "follow_up_due": "2026-04-06T10:15:14.278848+00:00",
+      "interactions": [
+        {
+          "type": "outreach",
+          "timestamp": "2026-04-03T10:15:14.278856+00:00",
+          "channel": "twitter_dm",
+          "notes": "Initial outreach sent"
+        }
+      ]
+    },
+    {
+      "id": "LEAD-002",
+      "name": "Tarek Mansour",
+      "company": "Kalshi",
+      "role": "CEO",
+      "channel": "twitter_dm",
+      "status": "sent",
+      "notes": "DM sent with wirebet.com link",
+      "created": "2026-04-03T10:15:14.467766+00:00",
+      "updated": "2026-04-03T10:15:14.468185+00:00",
+      "follow_up_due": "2026-04-06T10:15:14.468261+00:00",
+      "interactions": [
+        {
+          "type": "outreach",
+          "timestamp": "2026-04-03T10:15:14.468273+00:00",
+          "channel": "twitter_dm",
+          "notes": "Initial outreach sent"
+        }
+      ]
+    },
+    {
+      "id": "LEAD-003",
+      "name": "James",
+      "company": "Manifold Markets",
+      "role": "Co-founder",
+      "channel": "twitter_dm",
+      "status": "sent",
+      "notes": "DM sent with wirebet.com link",
+      "created": "2026-04-03T10:15:14.737928+00:00",
+      "updated": "2026-04-03T10:15:14.738174+00:00",
+      "follow_up_due": "2026-04-06T10:15:14.738178+00:00",
+      "interactions": [
+        {
+          "type": "outreach",
+          "timestamp": "2026-04-03T10:15:14.738185+00:00",
+          "channel": "twitter_dm",
+          "notes": "Initial outreach sent"
+        }
+      ]
+    },
+    {
+      "id": "LEAD-004",
+      "name": "Hayden Adams",
+      "company": "Uniswap",
+      "role": "Founder",
+      "channel": "twitter_dm",
+      "status": "sent",
+      "notes": "DM sent with wirebet.com link",
+      "created": "2026-04-03T10:15:14.934619+00:00",
+      "updated": "2026-04-03T10:15:14.934876+00:00",
+      "follow_up_due": "2026-04-06T10:15:14.934881+00:00",
+      "interactions": [
+        {
+          "type": "outreach",
+          "timestamp": "2026-04-03T10:15:14.934888+00:00",
+          "channel": "twitter_dm",
+          "notes": "Initial outreach sent"
+        }
+      ]
+    },
+    {
+      "id": "LEAD-005",
+      "name": "Stani Kulechov",
+      "company": "Aave",
+      "role": "CEO",
+      "channel": "twitter_dm",
+      "status": "sent",
+      "notes": "DM sent with wirebet.com link",
+      "created": "2026-04-03T10:15:15.100547+00:00",
+      "updated": "2026-04-03T10:15:15.101312+00:00",
+      "follow_up_due": "2026-04-06T10:15:15.101319+00:00",
+      "interactions": [
+        {
+          "type": "outreach",
+          "timestamp": "2026-04-03T10:15:15.101330+00:00",
+          "channel": "twitter_dm",
+          "notes": "Initial outreach sent"
+        }
+      ]
+    }
+  ],
+  "next_id": 6
+}

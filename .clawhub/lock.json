@@ -1,0 +1,257 @@
+{
+  "version": 1,
+  "skills": {
+    "cold-outreach": {
+      "version": "2.0.0",
+      "installedAt": 1775234261961
+    },
+    "xurl": {
+      "version": "1.0.0",
+      "installedAt": 1775234484901
+    },
+    "linkedin-skill": {
+      "version": "1.0.0",
+      "installedAt": 1775234504194
+    },
+    "instagram-poster": {
+      "version": "1.0.0",
+      "installedAt": 1775234523512
+    },
+    "twitter-post": {
+      "version": "1.0.0",
+      "installedAt": 1775234656274
+    },
+    "human-browser": {
+      "version": "4.0.1",
+      "installedAt": 1775234786950
+    },
+    "gog": {
+      "version": "1.0.0",
+      "installedAt": 1777795489969
+    },
+    "google-calendar": {
+      "version": "0.1.0",
+      "installedAt": 1777795501535
+    },
+    "weather": {
+      "version": "1.0.0",
+      "installedAt": 1777795507185
+    },
+    "rss-reader": {
+      "version": "1.0.0",
+      "installedAt": 1777795517377
+    },
+    "todoist": {
+      "version": "0.2.1",
+      "installedAt": 1777795523039
+    },
+    "linear": {
+      "version": "1.0.0",
+      "installedAt": 1777795528958
+    },
+    "gmail": {
+      "version": "1.0.7",
+      "installedAt": 1777795534460
+    },
+    "message": {
+      "version": "1.0.0",
+      "installedAt": 1777795692776
+    },
+    "brave-search": {
+      "version": "1.0.1",
+      "installedAt": 1777796616192
+    },
+    "reddit-api": {
+      "version": "1.2.0",
+      "installedAt": 1777796621740
+    },
+    "vision": {
+      "version": "3.5.0",
+      "installedAt": 1777796631766
+    },
+    "google-sheets": {
+      "version": "1.0.7",
+      "installedAt": 1777796637178
+    },
+    "google-drive": {
+      "version": "1.0.7",
+      "installedAt": 1777796642334
+    },
+    "linkedin-api": {
+      "version": "1.0.7",
+      "installedAt": 1777796654509
+    },
+    "discord": {
+      "version": "1.0.1",
+      "installedAt": 1777796659840
+    },
+    "github": {
+      "version": "1.0.0",
+      "installedAt": 1777796682973
+    },
+    "twilio": {
+      "version": "1.0.1",
+      "installedAt": 1777796688923
+    },
+    "vercel": {
+      "version": "1.0.1",
+      "installedAt": 1777796694303
+    },
+    "netlify": {
+      "version": "1.0.0",
+      "installedAt": 1777796699667
+    },
+    "awesome-skills": {
+      "version": "1.0.0",
+      "installedAt": 1777915070206
+    },
+    "blog-master": {
+      "version": "1.0.1",
+      "installedAt": 1777915293835
+    },
+    "seo": {
+      "version": "1.0.3",
+      "installedAt": 1777917070292
+    },
+    "marketing-mode": {
+      "version": "1.0.0",
+      "installedAt": 1777915371274
+    },
+    "blogging": {
+      "version": "1.0.0",
+      "installedAt": 1777915412875
+    },
+    "marketing-skills": {
+      "version": "0.1.2",
+      "installedAt": 1777915462132
+    },
+    "social-media-management": {
+      "version": "1.0.0",
+      "installedAt": 1777916698162
+    },
+    "image": {
+      "version": "1.0.4",
+      "installedAt": 1777916731395
+    },
+    "branding": {
+      "version": "1.0.0",
+      "installedAt": 1777916777981
+    },
+    "upload-post": {
+      "version": "1.0.0",
+      "installedAt": 1777917326634
+    },
+    "social-media-scheduler": {
+      "version": "1.0.0",
+      "installedAt": 1777917382479
+    },
+    "deep-research-pro": {
+      "version": "1.0.2",
+      "installedAt": 1777917664246
+    },
+    "bookforge-business-development-pipeline": {
+      "version": "1.0.0",
+      "installedAt": 1777918090362
+    },
+    "business-plan": {
+      "version": "0.1.0",
+      "installedAt": 1777918118632
+    },
+    "phd-research-companion": {
+      "version": "1.0.2",
+      "installedAt": 1777918134964
+    },
+    "mba": {
+      "version": "1.0.0",
+      "installedAt": 1777918208239
+    },
+    "business-intelligence": {
+      "version": "1.0.0",
+      "installedAt": 1777918243390
+    },
+    "business-writing": {
+      "version": "0.1.0",
+      "installedAt": 1777918455568
+    },
+    "business-model-canvas": {
+      "version": "0.1.0",
+      "installedAt": 1777918480070
+    },
+    "business": {
+      "version": "1.1.0",
+      "installedAt": 1777918498852
+    },
+    "leverage-multiplier": {
+      "version": "1.0.0",
+      "installedAt": 1777918699286
+    },
+    "negotiate": {
+      "version": "1.0.0",
+      "installedAt": 1777918730384
+    },
+    "reef-negotiation": {
+      "version": "1.0.0",
+      "installedAt": 1777918766071
+    },
+    "openclaw-model-switch-2": {
+      "version": "0.1.3",
+      "installedAt": 1777920256443
+    },
+    "agent-commons": {
+      "version": "1.0.3",
+      "installedAt": 1777920367207
+    },
+    "agent-team-orchestration": {
+      "version": "1.0.0",
+      "installedAt": 1777920379505
+    },
+    "arxiv-search-collector": {
+      "version": "0.1.1",
+      "installedAt": 1777920520939
+    },
+    "azhua-skill-vetter": {
+      "version": "1.0.0",
+      "installedAt": 1777920539062
+    },
+    "azure-devops": {
+      "version": "1.0.0",
+      "installedAt": 1777920549678
+    },
+    "bat-cat": {
+      "version": "1.0.0",
+      "installedAt": 1777920558680
+    },
+    "beeminder": {
+      "version": "1.0.0",
+      "installedAt": 1777921203821
+    },
+    "bitbucket-automation": {
+      "version": "0.1.0",
+      "installedAt": 1777921218165
+    },
+    "biz-reporter": {
+      "version": "1.0.0",
+      "installedAt": 1777921235218
+    },
+    "agentdo": {
+      "version": "1.0.0",
+      "installedAt": 1777922969835
+    },
+    "agentgate": {
+      "version": "1.0.4",
+      "installedAt": 1777923451091
+    },
+    "airadar": {
+      "version": "1.0.0",
+      "installedAt": 1777924971084
+    },
+    "amazon-product-api-skill": {
+      "version": "0.1.3",
+      "installedAt": 1777925205710
+    },
+    "arc-sentinel": {
+      "version": "1.0.0",
+      "installedAt": 1777925498335
+    }
+  }
+}

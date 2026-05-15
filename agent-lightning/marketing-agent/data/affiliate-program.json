@@ -1,0 +1,26 @@
+{
+  "brand": "WireBet",
+  "product": "Premium one-word .com for crypto prediction markets and event trading",
+  "base_commission": "10%",
+  "tiers": [
+    {
+      "name": "Bronze",
+      "commission_rate": "10%",
+      "requirements": "No minimum sales required to join."
+    },
+    {
+      "name": "Silver",
+      "commission_rate": "15%",
+      "requirements": "Generate at least $500 in sales within a calendar month."
+    },
+    {
+      "name": "Gold",
+      "commission_rate": "20%",
+      "requirements": "Generate at least $2,000 in sales within a calendar month."
+    }
+  ],
+  "referral_link_format": "https://wirebet.com/affiliate?ref={affiliate_id}",
+  "payout_schedule": "Commission payouts are made bi-weekly on the first and fifteenth of each month.",
+  "terms_conditions_summary": "Affiliates must comply with WireBet's policies. Commission is paid in crypto. Any fraudulent activity will lead to account termination without payout.",
+  "outreach_message": "We are excited to introduce our affiliate program at WireBet! Join us to earn competitive commissions by referring premium one-word .com domains for crypto prediction markets. With three tiers offering up to 20% commission, the potential for earnings is massive. Sign up today with this link: {referral_link}!"
+}

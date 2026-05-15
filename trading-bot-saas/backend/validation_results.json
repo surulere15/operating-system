@@ -1,0 +1,49 @@
+{
+  "param_optimization": {
+    "baseline": {
+      "win_rate": 0.589,
+      "avg_win": 2.635633946327739,
+      "avg_loss": -2.0046158753667656,
+      "profit_factor": 1.8842017379409943,
+      "total_return": 7.2849126961129835
+    },
+    "optimized": {
+      "win_rate": 0.605,
+      "avg_win": 3.1421055594311165,
+      "avg_loss": -1.4240034431389637,
+      "profit_factor": 3.3796210834809024,
+      "total_return": 13.384925034159362
+    },
+    "improvement_pct": 83.73487222847801
+  },
+  "profit_maximization": {
+    "without": {
+      "gross_profit": 31540.572028935236,
+      "total_costs": 6480.000000000011,
+      "net_profit": 25060.572028935225,
+      "net_return": 2.5060572028935226
+    },
+    "with": {
+      "gross_profit": 36450.98798928612,
+      "total_costs": 4049.4206782510664,
+      "net_profit": 32401.567311035054,
+      "net_return": 3.2401567311035055
+    },
+    "extra_profit": 7340.99528209983,
+    "improvement_pct": 29.293007652115172
+  },
+  "weekly_return": {
+    "mean": 0.03515955690282431,
+    "median": 0.035300118132654004,
+    "std": 0.013974496282669032,
+    "p5": 0.01174113228669896,
+    "p50": 0.035300118132654004,
+    "p95": 0.057692594607493076,
+    "prob_profit": 0.9936,
+    "prob_above_50pct": 0.0
+  },
+  "risk": {
+    "avg_drawdown": 0.8799177134115502,
+    "max_drawdown": 0.931752502142532,
+    "avg_sharpe": 30.898993647721312,
+    "acceptable": 

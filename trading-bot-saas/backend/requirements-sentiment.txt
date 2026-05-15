@@ -1,0 +1,36 @@
+# Sentiment Analysis Requirements
+# Real-time market intelligence from social media and news
+
+# API clients
+requests>=2.31.0
+tweepy>=4.14.0  # Twitter API
+praw>=7.7.1  # Reddit API
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Text processing
+nltk>=3.8.1
+textblob>=0.17.1
+vaderSentiment>=3.3.2
+
+# Web scraping (backup if APIs fail)
+beautifulsoup4>=4.12.2
+selenium>=4.15.0  # For dynamic content
+
+# Rate limiting
+ratelimit>=2.2.1
+
+# Caching
+redis>=5.0.1  # Optional: for distributed caching
+cachetools>=5.3.2
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# API keys needed (set in .env):
+# TWITTER_BEARER_TOKEN=your_twitter_bearer_token
+# NEWS_API_KEY=your_newsapi_key
+# REDDIT_CLIENT_ID=your_reddit_client_id (optional)
+# REDDIT_CLIENT_SECRET=your_reddit_secret (optional)

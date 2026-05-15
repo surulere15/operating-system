@@ -1,0 +1,32 @@
+<!doctype html><html><head><meta charset='utf-8'><title>sku06-recon-exceptions</title><style>
+body{font-family:-apple-system,system-ui,Segoe UI,Roboto,Helvetica,Arial;margin:40px;max-width:1000px;}
+pre{background:#0b1020;color:#e5e7eb;padding:12px;border-radius:8px;overflow:auto;}
+code{background:#f3f4f6;padding:2px 4px;border-radius:4px;}
+h1{margin-top:0;}
+hr{margin:24px 0;}
+table{border-collapse:collapse;width:100%;}
+td,th{border:1px solid #e5e7eb;padding:8px;font-size:14px;}
+th{background:#f8fafc;text-align:left;}
+.small{color:#475569;font-size:13px;}
+</style></head><body><h1>sku06-recon-exceptions.json</h1><pre>{
+  &quot;unmatchedStripe&quot;: [
+    {
+      &quot;amount&quot;: 100,
+      &quot;date&quot;: &quot;2026-03-01&quot;
+    }
+  ],
+  &quot;unmatchedBank&quot;: [
+    {
+      &quot;i&quot;: 1,
+      &quot;amount&quot;: 99.99,
+      &quot;date&quot;: &quot;2026-03-01&quot;
+    }
+  ],
+  &quot;discrepancies&quot;: {
+    &quot;stripeSum&quot;: 150,
+    &quot;bankSum&quot;: 149.99,
+    &quot;delta&quot;: 0.009999999999990905,
+    &quot;unmatchedStripeCount&quot;: 1,
+    &quot;unmatchedBankCount&quot;: 1
+  }
+}</pre></body></html>

@@ -1,0 +1,19 @@
+{
+  "timestamp": "20260402_112535",
+  "model": "openai/gpt-4o-mini",
+  "baseline_weighted_score": 0.7019261637239167,
+  "best_weighted_score": 0.7382022471910115,
+  "improvement_pct": 5.168076835124636,
+  "baseline_scores": {
+    "web-research": 0.7928571428571428,
+    "code-gen": 0.85,
+    "analysis": 0.5214285714285715,
+    "strategy": 0.5071428571428571,
+    "debugging": 0.942857142857143,
+    "data-extract": 0.7714285714285715,
+    "email-draft": 0.40714285714285714,
+    "infra-check": 0.7357142857142859
+  },
+  "beam_width": 4,
+  "rounds": 3
+}

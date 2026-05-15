@@ -1,0 +1,86 @@
+{
+  "id": "outreach_1775209502965",
+  "channel": "dm",
+  "offer": "Premium wirebet.com domain for prediction markets",
+  "targets": [
+    {
+      "target": {
+        "name": "Shayne Coplan",
+        "company": "Polymarket",
+        "role": "CEO"
+      },
+      "sequence": [
+        {
+          "step": 1,
+          "subject": "Quick Idea for Polymarket",
+          "body": "Hi Shayne, I came across Polymarket and was impressed by your innovative approach to prediction markets. I believe the premium wirebet.com domain could be a perfect fit for your platform, offering users a gateway to transparent and secure betting. Let me know if you're open to discussing this further!",
+          "cta": "Let me know your thoughts!"
+        },
+        {
+          "step": 2,
+          "subject": "Following Up on WireBet Domain",
+          "body": "Hey Shayne, just wanted to circle back on my message about the wirebet.com domain. It not only offers secure transactions but also the potential for real-time updates on a wide range of sports. This could really enhance the user experience on Polymarket. Happy to share more details if you're interested!",
+          "cta": "Would you like to hop on a quick call?"
+        },
+        {
+          "step": 3,
+          "subject": "Last Chance for Wirebet.com Domain",
+          "body": "Hi Shayne, as a final follow-up, I wanted to mention that wirebet.com is gaining quite a bit of interest. Securing this domain could give Polymarket a strong competitive edge in the market. It’s an opportunity that won’t last long—let’s connect!",
+          "cta": "Can we chat this week before it's gone?"
+        }
+      ]
+    },
+    {
+      "target": {
+        "name": "Tarek Mansour",
+        "company": "Kalshi",
+        "role": "CEO"
+      },
+      "sequence": [
+        {
+          "subject": "Unlock a Premier Opportunity in Prediction Markets",
+          "body": "Hi Tarek,\n\nI’ve been following Kalshi's innovative approach to prediction markets and it's impressive! I wanted to share a unique opportunity with you — the premium domain wirebet.com could really enhance your brand’s presence. \n\nLooking forward to chatting about it!",
+          "cta": "Let me know if you’re open to a quick call this week!"
+        },
+        {
+          "subject": "Thoughts on WireBet?",
+          "body": "Hey Tarek,\n\nJust wanted to follow up on my previous message about wirebet.com. I believe this domain could be a significant asset for Kalshi, especially with secure transactions and real-time updates that align with your mission.\n\nHappy to share some insights on how it can drive value for you!",
+          "cta": "Let me know if you’d like to discuss this further!"
+        },
+        {
+          "subject": "Last Chance to Acquire WireBet!",
+          "body": "Hi Tarek,\n\nI wanted to reach out one last time regarding wirebet.com. This domain is gaining a lot of interest, and I’d hate for Kalshi to miss out on a chance to strengthen its foothold in the prediction market space. Secure and transparent betting could be just a domain away!\n\nHope to hear from you soon!",
+          "cta": "Shall we set up a time to discuss?"
+        }
+      ]
+    },
+    {
+      "target": {
+        "name": "James",
+        "company": "Manifold Markets",
+        "role": "Co-founder"
+      },
+      "sequence": [
+        {
+          "step": 1,
+          "subject": "Exciting Opportunity for Manifold Markets!",
+          "body": "Hi James,\n\nI hope this message finds you well. I've been following Manifold Markets and I'm impressed with what you're building in the prediction space. I wanted to share an exciting opportunity: we're offering the premium domain wirebet.com, which could be a game-changer for your platform, enhancing your brand's presence in secure betting.\n\nBest,\n[Your Name]",
+          "cta": "Let me know if you're interested!"
+        },
+        {
+          "step": 2,
+          "subject": "Checking In on Our Last Conversation",
+          "body": "Hey James,\n\nJust wanted to follow up on my last message about wirebet.com. I genuinely believe this domain could align perfectly with Manifold Markets' vision of transparent and secure betting. If you’d like, I can share some insights on how a premium domain can elevate your online presence.\n\nCheers,\n[Your Name]",
+          "cta": "Would love to hear your thoughts!"
+        },
+        {
+          "step": 3,
+          "subject": "Last Chance for WireBet!",
+          "body": "Hi James,\n\nI wanted to reach out one final time regarding wirebet.com. This premium domain is in high demand, and I’d hate for you to miss out on securing it for Manifold Markets. With your focus on secure transactions and real-time updates, this domain could further amplify your message.\n\nTalk soon,\n[Your Name]",
+          "cta": "Let me know if you're ready to move forward!"
+        }
+      ]
+    }
+  ],
+  "createdAt": "2026-04-03T09:45:02.965Z"
+}

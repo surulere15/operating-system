@@ -1,0 +1,38 @@
+# On-Chain Analytics & Whale Tracking Requirements
+# Revolutionary blockchain intelligence
+
+# Web3 & Blockchain
+web3>=6.11.0
+eth-account>=0.10.0
+eth-utils>=2.3.0
+
+# API clients
+requests>=2.31.0
+
+# Data processing
+pandas>=2.1.0
+numpy>=1.24.0
+
+# Environment variables
+python-dotenv>=1.0.0
+
+# Caching
+cachetools>=5.3.2
+
+# Rate limiting
+ratelimit>=2.2.1
+
+# Optional: Premium data providers
+# nansen-sdk  # Requires Nansen subscription
+# glassnode-sdk  # Requires Glassnode subscription
+# dune-analytics  # Free tier available
+
+# API keys needed (set in .env):
+# ETHERSCAN_API_KEY=your_etherscan_api_key
+# BSCSCAN_API_KEY=your_bscscan_api_key (optional)
+# POLYGONSCAN_API_KEY=your_polygonscan_api_key (optional)
+#
+# Get free API keys:
+# - Etherscan: https://etherscan.io/apis
+# - BscScan: https://bscscan.com/apis
+# - PolygonScan: https://polygonscan.com/apis

@@ -1,0 +1,41 @@
+name: Crypto Signal Bot
+
+on:
+  schedule:
+    # Run every 5 minutes (12 times per hour)
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Allow manual trigger
+
+jobs:
+  scan-and-signal:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          cd signal_bot
+          pip install -r requirements.txt
+
+      - name: Run Signal Bot
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: |
+          cd signal_bot
+          python telegram_bot.py
+
+      - name: Upload signal logs (optional)
+        uses: actions/upload-artifact@v3
+        if: always()
+        with:
+          name: signal-logs
+          path: /tmp/crypto_signals.json
+          retention-days: 7

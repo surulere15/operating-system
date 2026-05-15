@@ -1,0 +1,13 @@
+{
+  "name": "demo_uk_saas_n8n",
+  "prompt": "Find UK SaaS founders using n8n",
+  "limit": 50,
+  "created_at": "2026-02-26T05:11:16.404417Z",
+  "adapters": {
+    "clearbit": false,
+    "pdl": false,
+    "apollo": false
+  },
+  "status": "CREATED",
+  "notes": "v0 scaffold. Add a provider adapter for verified contacts."
+}

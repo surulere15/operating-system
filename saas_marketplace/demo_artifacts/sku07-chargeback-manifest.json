@@ -1,0 +1,27 @@
+{
+  "runId": "cmmfqugtr000ki3urbwx06ooh",
+  "generatedAt": "2026-03-07T03:47:54.397Z",
+  "files": [
+    {
+      "id": "cmmfqugtu000mi3uru50o9toa",
+      "kind": "input",
+      "filename": "cmmfqugtr000ki3urbwx06ooh-orders.csv",
+      "path": "/Users/sam/.openclaw/workspace/saas_marketplace/app/data/artifacts/cmmfqugtr000ki3urbwx06ooh-orders.csv",
+      "checksum": "e98a552569d5c3201407b4dff329ad8c0c748a95feaa1fdd5175cc0ff420d1a6"
+    },
+    {
+      "id": "cmmfqugtw000oi3ur6ra1f9of",
+      "kind": "input",
+      "filename": "cmmfqugtr000ki3urbwx06ooh-support_threads.txt",
+      "path": "/Users/sam/.openclaw/workspace/saas_marketplace/app/data/artifacts/cmmfqugtr000ki3urbwx06ooh-support_threads.txt",
+      "checksum": "ddc2c579290fbf443f9c352edc06739929257d46b86a942b6fc9fc0f46c32a60"
+    }
+  ],
+  "checklist": [
+    "Order details (amount, timestamp, customer)",
+    "Shipping/delivery proof",
+    "Refund policy + acknowledgement",
+    "Customer communications",
+    "Device/IP logs (if available)"
+  ]
+}

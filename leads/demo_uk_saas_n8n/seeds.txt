@@ -1,0 +1,6 @@
+https://sky.money/
+https://spark.fi/
+https://data.spark.fi/
+https://www.weblineglobal.com/case-studies/us-saas-hired-n8n-automation-pod/
+https://cosmonauts.dev/case-studies/case-study-on-premise-n8n-implementation-and-process-automation-with-migration-from-zapier-and-make-in-the-ladiesgym-gym-network/
+https://angelsant.substack.com/p/how-to-build-a-saas-with-n8n

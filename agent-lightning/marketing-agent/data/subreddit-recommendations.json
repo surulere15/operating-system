@@ -1,0 +1,82 @@
+{
+  "wirebet_subreddit_analysis": {
+    "source": "wirebet.com landing page",
+    "keywords_extracted": [
+      "prediction markets",
+      "crypto trading",
+      "event markets",
+      "premium domain",
+      "one-word .com",
+      "crypto-native",
+      "wagering platforms",
+      "DeFi",
+      "Web3",
+      "brand asset"
+    ],
+    "recommended_subreddits": [
+      {
+        "sub": "r/predictionmarkets",
+        "score": 95,
+        "reason": "Direct match \u2014 prediction market operators and enthusiasts",
+        "post_type": "Domain listing with strategic context",
+        "rule_check": "\u2705 No domain sale restrictions found"
+      },
+      {
+        "sub": "r/CryptoCurrency",
+        "score": 75,
+        "reason": "Large audience, prediction markets trending topic",
+        "post_type": "Discussion post about domain assets in crypto",
+        "rule_check": "\u26a0\ufe0f May need to frame as discussion, not promotion"
+      },
+      {
+        "sub": "r/defi",
+        "score": 80,
+        "reason": "RWA + prediction market convergence is hot topic",
+        "post_type": "Industry analysis with domain example",
+        "rule_check": "\u2705 Educational content allowed"
+      },
+      {
+        "sub": "r/ethereum",
+        "score": 60,
+        "reason": "Prediction markets built on Ethereum ecosystem",
+        "post_type": "Technical discussion about prediction market infrastructure",
+        "rule_check": "\u26a0\ufe0f Strict on promotion \u2014 must be educational"
+      },
+      {
+        "sub": "r/CryptoMarkets",
+        "score": 65,
+        "reason": "Trading and market analysis community",
+        "post_type": "Market analysis of prediction market sector",
+        "rule_check": "\u2705 Analysis posts welcome"
+      },
+      {
+        "sub": "r/Web3",
+        "score": 70,
+        "reason": "Web3 builders interested in new domains",
+        "post_type": "Brand asset discussion",
+        "rule_check": "\u2705 Project discussions allowed"
+      },
+      {
+        "sub": "r/NamePros",
+        "score": 50,
+        "reason": "Domain investors and buyers",
+        "post_type": "Standard domain listing",
+        "rule_check": "\u2705 Marketplace section for sales"
+      },
+      {
+        "sub": "r/NFT",
+        "score": 40,
+        "reason": "Overlaps with crypto audience but not direct match",
+        "post_type": "Tangential \u2014 not recommended",
+        "rule_check": "\u26a0\ufe0f Off-topic risk"
+      }
+    ],
+    "content_strategy": {
+      "best_day": "Tuesday-Thursday",
+      "best_time": "9-11am EST",
+      "post_format": "Text post with link in body (not link post)",
+      "tone": "Educational, not salesy",
+      "hook": "Start with industry insight, end with domain mention"
+    }
+  }
+}

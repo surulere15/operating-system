@@ -1,0 +1,90 @@
+{
+  "wirebet_reddit_research": {
+    "timestamp": "2026-04-03",
+    "target_subreddits": [
+      {
+        "subreddit": "r/predictionmarkets",
+        "members": "15K",
+        "relevance": 9,
+        "best_post_time": "Tue-Thu 9-11am EST",
+        "content_type": "Technical analysis, market predictions",
+        "wirebet_angle": "Premium domain for prediction market operators"
+      },
+      {
+        "subreddit": "r/CryptoCurrency",
+        "members": "7.5M",
+        "relevance": 7,
+        "best_post_time": "Daily 8-10am EST",
+        "content_type": "News, discussion, analysis",
+        "wirebet_angle": "Prediction markets as next DeFi wave, premium brand asset"
+      },
+      {
+        "subreddit": "r/defi",
+        "members": "250K",
+        "relevance": 8,
+        "best_post_time": "Mon-Wed 10am EST",
+        "content_type": "Protocol analysis, yield farming, RWA",
+        "wirebet_angle": "RWA + prediction markets convergence"
+      },
+      {
+        "subreddit": "r/ethereum",
+        "members": "3.5M",
+        "relevance": 6,
+        "best_post_time": "Weekdays 9am EST",
+        "content_type": "Development, ecosystem news",
+        "wirebet_angle": "Prediction markets on Ethereum/L2"
+      },
+      {
+        "subreddit": "r/Solana",
+        "members": "500K",
+        "relevance": 6,
+        "best_post_time": "Any day 11am EST",
+        "content_type": "DeFi, NFTs, ecosystem",
+        "wirebet_angle": "Prediction market protocol on Solana"
+      },
+      {
+        "subreddit": "r/NamePros",
+        "members": "50K",
+        "relevance": 5,
+        "best_post_time": "Mon-Fri 2pm EST",
+        "content_type": "Domain sales, valuations",
+        "wirebet_angle": "Premium .com domain sale listing"
+      },
+      {
+        "subreddit": "r/domains",
+        "members": "30K",
+        "relevance": 5,
+        "best_post_time": "Any day",
+        "content_type": "Domain discussions",
+        "wirebet_angle": "One-word .com in crypto vertical"
+      }
+    ],
+    "trending_topics": [
+      "Prediction markets hitting mainstream (Polymarket, Kalshi)",
+      "RWA tokenization projected to exceed $100B in 2026",
+      "Crypto event trading growing 200% YoY",
+      "Domain names in crypto: premium .coms as strategic assets",
+      "AI + prediction markets convergence"
+    ],
+    "recommended_posts": [
+      {
+        "subreddit": "r/predictionmarkets",
+        "title": "Premium .com for prediction markets just became available",
+        "angle": "Domain as strategic asset for operators",
+        "timing": "Tuesday 10am EST"
+      },
+      {
+        "subreddit": "r/CryptoCurrency",
+        "title": "Prediction markets are the next DeFi wave. What domains matter?",
+        "angle": "Industry discussion with wirebet.com as example",
+        "timing": "Wednesday 9am EST"
+      },
+      {
+        "subreddit": "r/defi",
+        "title": "RWA meets prediction markets: the domain play",
+        "angle": "Premium brand assets in the RWA vertical",
+        "timing": "Monday 10am EST"
+      }
+    ]
+  }
+}

@@ -38,7 +38,29 @@ class LiveTradingBot:
         self.signal_bot = CryptoSignalBot()
 
         # Use standard symbols for data fetching (Binance format)
-        self.signal_bot.symbols = ['BTC/USDT', 'ETH/USDT', 'SOL/USDT']
+        # Expanded to 40 markets - Focus on VOLATILE alts for better returns on small capital
+        self.signal_bot.symbols = [
+            # Major caps (stable baseline)
+            'BTC/USDT', 'ETH/USDT',
+
+            # Large caps (good liquidity)
+            'SOL/USDT', 'XRP/USDT', 'ADA/USDT', 'AVAX/USDT', 'DOT/USDT',
+
+            # Mid caps (more volatile)
+            'LINK/USDT', 'UNI/USDT', 'ATOM/USDT', 'LTC/USDT', 'BCH/USDT',
+            'NEAR/USDT', 'APT/USDT', 'ARB/USDT', 'OP/USDT', 'INJ/USDT',
+            'TIA/USDT', 'SEI/USDT', 'SUI/USDT',
+
+            # High volatility alts (10-20% daily swings)
+            'FET/USDT', 'RNDR/USDT', 'IMX/USDT', 'AAVE/USDT', 'CRV/USDT',
+            'LDO/USDT', 'MKR/USDT', 'SNX/USDT', 'COMP/USDT',
+
+            # Memecoins (extreme volatility - 20-50% swings)
+            'DOGE/USDT', 'WIF/USDT', 'BONK/USDT', 'FLOKI/USDT',
+
+            # Gaming/Metaverse (trending sectors)
+            'SAND/USDT', 'MANA/USDT', 'AXS/USDT', 'GALA/USDT'
+        ]
 
         # Initialize Bybit Futures trader
         self.trader = BybitFuturesTrader(
@@ -60,11 +82,31 @@ class LiveTradingBot:
             'start_time': datetime.now()
         }
 
-        # Leverage settings per asset
+        # Leverage settings - AGGRESSIVE for $33 capital (need meaningful returns)
         self.leverage_config = {
-            'BTC/USDT': 10,  # 10x for BTC
-            'ETH/USDT': 10,  # 10x for ETH
-            'SOL/USDT': 5    # 5x for SOL
+            # Major caps (15x - increased from 10x)
+            'BTC/USDT': 15, 'ETH/USDT': 15,
+
+            # Large caps (20x - increased from 7x)
+            'SOL/USDT': 20, 'XRP/USDT': 20, 'ADA/USDT': 20, 'AVAX/USDT': 20,
+            'DOT/USDT': 20,
+
+            # Mid caps (20x - increased from 5x)
+            'LINK/USDT': 20, 'UNI/USDT': 20, 'ATOM/USDT': 20, 'LTC/USDT': 20,
+            'BCH/USDT': 20, 'NEAR/USDT': 20, 'APT/USDT': 20, 'ARB/USDT': 20,
+            'OP/USDT': 20, 'INJ/USDT': 20, 'TIA/USDT': 20, 'SEI/USDT': 20,
+            'SUI/USDT': 20,
+
+            # High volatility alts (25x - capitalize on big swings)
+            'FET/USDT': 25, 'RNDR/USDT': 25, 'IMX/USDT': 25, 'AAVE/USDT': 25,
+            'CRV/USDT': 25, 'LDO/USDT': 25, 'MKR/USDT': 25, 'SNX/USDT': 25,
+            'COMP/USDT': 25,
+
+            # Memecoins (15x - lower due to extreme volatility, but still aggressive)
+            'DOGE/USDT': 15, 'WIF/USDT': 15, 'BONK/USDT': 15, 'FLOKI/USDT': 15,
+
+            # Gaming/Metaverse (25x)
+            'SAND/USDT': 25, 'MANA/USDT': 25, 'AXS/USDT': 25, 'GALA/USDT': 25
         }
 
     def execute_signal(self, signal: Dict) -> bool:
@@ -165,8 +207,9 @@ class LiveTradingBot:
         print(f"Capital: ${self.capital:.2f} USDT")
         print(f"Exchange: BYBIT")
         print(f"Mode: {'TESTNET (Demo)' if self.trader.testnet else '⚠️  LIVE TRADING'}")
-        print(f"Assets: BTC/USDT, ETH/USDT, SOL/USDT")
-        print(f"Leverage: BTC/ETH 10x, SOL 5x")
+        print(f"Markets: 40 pairs (BTC, ETH, SOL, +37 volatile alts/memes/gaming)")
+        print(f"Leverage: 15-25x AGGRESSIVE (optimized for small capital)")
+        print(f"Strategy: Target 10-15% moves | Keep 60%+ confidence")
         print(f"Check Interval: {self.check_interval} seconds")
         print(f"Max Daily Loss: ${self.trader.max_daily_loss:.2f}")
         print(f"Max Position Loss: ${self.trader.max_position_loss:.2f}")

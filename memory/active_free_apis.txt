@@ -1,0 +1,232 @@
+# 2026 Curated List of 200+ Free & Active APIs
+
+## AI & Machine Learning (25+)
+1. Hugging Face Inference API - LLMs, embeddings, image models.
+2. OpenAI API - GPT-4, DALL-E (Free trial/credits).
+3. Google Gemini API - Multimodal reasoning (Free tier).
+4. OpenRouter - Unified gateway for free/paid LLMs.
+5. Groq Cloud - Ultra-fast Llama 3/Mistral inference.
+6. Cohere API - Semantic search and classification.
+7. AssemblyAI - Speech-to-text and audio intelligence.
+8. Replicate - Media generation and AI art.
+9. AI21 Labs - Enterprise NLP models.
+10. AI Horde - Crowd-sourced free image/text gen.
+11. Ollama (Self-hosted) - Local AI API for privacy.
+12. Intellexer - Linguistic analysis and NLP.
+13. DeepL API - High-quality machine translation (Free tier).
+14. Clarifai - Computer vision and video recognition.
+15. IBM Watson - Various AI services (Free tier).
+16. Mistral AI API - Open-weight LLMs via API.
+17. Perplexity API - Online LLM with search capabilities.
+18. Anthropic API - Claude models (Limited free tier).
+19. Together AI - Large-scale model inference.
+20. Stability AI - Stable Diffusion and creative gen.
+21. ElevenLabs - AI voice synthesis.
+22. Leonardo.ai - AI image generation.
+23. RunPod - GPU-accelerated AI endpoints.
+24. Modal - Serverless AI deployment.
+25. Pinecone - Vector database for AI context.
+
+## Weather & Environment (20+)
+26. OpenWeatherMap - Current, historical, and forecast data.
+27. WeatherAPI - Real-time weather and astronomy.
+28. Storm Glass - Marine and coastal weather.
+29. Visual Crossing - Weather analytics and history.
+30. Weatherbit - Hyper-local forecasts.
+31. AccuWeather - Global weather data.
+32. NOAA API - U.S. government official climate data.
+33. Weather.gov - Real-time alerts and forecasts.
+34. AerisWeather - Advanced weather graphics/data.
+35. AirVisual (IQAir) - Air quality indices (AQI).
+36. Windy API - Interactive weather maps.
+37. BreezoMeter - Real-time air quality and pollen.
+38. NASA Earth Data - Satellite environmental observations.
+39. USGS Earthquake API - Real-time seismic activity.
+40. Global Forest Watch - Deforestation alerts.
+41. Tides API - Global tide predictions.
+42. Open-Meteo - Free weather API for non-commercial use.
+43. Climacell (Tomorrow.io) - Weather intelligence platform.
+44. MeteoBlue - High-precision environmental data.
+45. Pirate Weather - Forecast data compatible with Dark Sky.
+
+## Finance & Cryptocurrency (30+)
+46. CoinGecko - Massive crypto market data.
+47. CoinMarketCap - Token prices and exchange data.
+48. Binance API - Real-time crypto trade data.
+49. Fixer.io - Foreign exchange rates.
+50. Currency Converter API - Real-time FX values.
+51. Alpha Vantage - Stocks, crypto, and technical indicators.
+52. IEX Cloud - Real-time US stock market data.
+53. Polygon.io - Financial market data platform.
+54. Yahoo Finance (Unofficial) - Historical stock data.
+55. MarketStack - Global stock market pricing.
+56. Finnhub - Real-time stock, forex, and crypto.
+57. EOD Historical Data - End-of-day stock values.
+58. CryptoCompare - Interactive price comparisons.
+59. Coinbase API - Wallet and exchange integration.
+60. Blockchain.com API - Bitcoin network data.
+61. Etherscan API - Ethereum blockchain explorer.
+62. Polygonscan API - Polygon network explorer.
+63. DexScreener - Real-time DEX data.
+64. Birdeye API - Solana and multi-chain DEX data.
+65. KuCoin API - Exchange data and bot access.
+66. Kraken API - Crypto exchange services.
+67. CoinDesk BPI - Bitcoin Price Index.
+68. Metals-API - Real-time gold and precious metals.
+69. VATLayer - EU VAT rate validation.
+70. Open Exchange Rates - Reliable FX data.
+71. Wise (TransferWise) - Transfer rates and tracking.
+72. Stripe API - Payment processing metadata.
+73. Plaid - Bank account connectivity (Sandboxed).
+74. Alpaca - Commission-free trading API.
+75. Tradier - Brokerage and market data.
+
+## News, Content & Social (25+)
+76. NewsAPI - Global news aggregator.
+77. GNews - Real-time news snippets.
+78. The Guardian API - Archival and real-time articles.
+79. NY Times API - Article search and book reviews.
+80. Currents API - Trending stories.
+81. NewsData.io - Multi-country news feed.
+82. NewsCatcher - Web-scraped structured news.
+83. Reddit API - Subreddit and user data.
+84. Twitter (X) API - Real-time social data (Free tier limited).
+85. Mastodon API - Decentralized social feed.
+86. YouTube Data API - Video metadata and searches.
+87. Vimeo API - Professional video data.
+88. TikTok Developers API - Content sharing and metadata.
+89. Instagram Graph API - Business profile data.
+90. Pinterest API - Image and pin data.
+91. Medium API - Blog post publishing and data.
+92. Substack (Scraper) - Newsletter discovery.
+93. Hacker News API - Tech and startup stories.
+94. Taboola API - Content discovery and ads.
+95. Outbrain API - Native advertising data.
+96. Feedly API - RSS feed aggregation.
+97. Pocket API - Saved content and readings.
+98. Tumblr API - Social blogging data.
+99. WordPress.com API - Blog management and stats.
+100. Ghost API - Content management data.
+
+## Data, Maps & Geolocation (30+)
+101. Google Maps Platform - Maps and Places (Free credits).
+102. Mapbox - Custom maps and navigation.
+103. OpenStreetMap - Free wiki-style map data.
+104. GeoNode - Open source geospatial data.
+105. REST Countries - Comprehensive country stats.
+106. GeoNames - Geographic names database.
+107. IP-API - Geolocation by IP address (Free for non-commercial).
+108. Abstract IP Geolocation - Reliable IP lookup.
+109. MaxMind (GeoLite2) - Offline IP geolocation.
+110. Postcodes.io - UK postcode data.
+111. Zippopotam.us - International zip code data.
+112. MapQuest - Reliable routing and mapping.
+113. Here Maps - Enterprise location services.
+114. Radar.io - Geofencing and location context.
+115. TomTom - Traffic and mapping data.
+116. Census.gov API - US demographic data.
+117. Data.gov - Hub for US government data.
+118. Eurostat - EU statistical data.
+119. World Bank API - Global development indicators.
+120. UN Data - International statistical datasets.
+121. Open Targets - Drug target and disease data.
+122. GBIF API - Biodiversity data.
+123. Open Library - Book and library records.
+124. Google Books API - Global book search.
+125. GoodReads (Unofficial) - Reading lists and reviews.
+126. Clarifai - Image and video tagging.
+127. What3Words - Innovative 3-word location.
+128. Yelp Fusion - Business reviews and data.
+129. FourSquare - Local venue discovery.
+130. TripAdvisor Content - Travel reviews and images.
+
+## Development & Utility Tools (40+)
+131. GitHub API - Repo and user management.
+132. GitLab API - DevOps and git data.
+133. Bitbucket API - Cloud git hosting data.
+134. JSONPlaceholder - Mock API for testing.
+135. Mockaroo - Custom data generation.
+136. CloudConvert - Universal file conversion.
+137. ILovePDF - PDF editing and compression.
+138. OCR.Space - Free optical character recognition.
+139. QR Code API - Interactive code generation.
+140. TinyURL API - Link shortening.
+141. Bitly API - Advanced link management.
+142. Rebrandly - Branded link shortening.
+143. Gravatar - Global avatar hosting.
+144. DiceBear - Procedural avatar generation.
+145. Robohash - Unique robot images from text.
+146. Clearbit Logo - Fetch logos by domain.
+147. Hunter.io - Email verification and search.
+148. Snov.io - Lead generation and email.
+149. MailerLite - Email marketing metadata.
+150. SendGrid - Transactional email data.
+151. Mailchimp - Marketing automation data.
+152. Twilio - SMS and voice communication tools.
+153. ClickSend - Global SMS and email.
+154. Slack API - Workspace automation.
+155. Discord API - Bot and community integration.
+156. Telegram Bot API - Messaging and automation.
+157. WhatsApp Business - Enterprise messaging.
+158. Firebase - Real-time database and auth.
+159. Supabase - Open source backend-as-a-service.
+160. Appwrite - Managed backend for apps.
+161. Netlify API - Web hosting management.
+162. Vercel API - Cloud deployment data.
+163. DigitalOcean API - Cloud infrastructure control.
+164. AWS API (Limited) - Cloud resource data.
+165. Azure API (Limited) - Enterprise cloud data.
+166. New Relic - Infrastructure monitoring.
+167. Datadog - Cloud scale monitoring.
+168. Sentry - Error tracking and reporting.
+169. PagerDuty - Incident response automation.
+170. Zapier - App automation workflow data.
+
+## Entertainment, Arts & Lifestyle (30+)
+171. PokeAPI - Massive Pokemon database.
+172. Star Wars API (SWAPI) - Galactic data.
+173. Rick and Morty API - Multiverse information.
+174. OMDb API - Movie database information.
+175. TMDB (The Movie DB) - Comprehensive movie/TV data.
+176. TVMaze - TV show schedules and data.
+177. Comic Vine - Superhero and comic data.
+178. Marvel API - Official Marvel character data.
+179. Spotify Web API - Music and playback data.
+180. Last.fm API - Music scrobbling and stats.
+181. Genius API - Lyrics and music culture.
+182. Deezer API - Global music streaming data.
+183. SoundCloud API - Indie music and audio.
+184. Apple Music API - Universal music data.
+185. BoardGameGeek - Tabletop game data.
+186. IGDB - Video game database for twitch.
+187. Steam Web API - Gaming stats and inventory.
+188. Twitch API - Live streaming metadata.
+189. Chess.com API - Player stats and games.
+190. Recipe Puppy - Ingredient-based search.
+191. Edamam - Nutrition and recipe analysis.
+192. Spoonacular - Food and recipe management.
+193. CocktailDB - Mixed drink database.
+194. Open Food Facts - Global food product data.
+195. Bored API - Activity suggestions.
+196. Jokes API - High-quality random humor.
+197. Advice Slip - Random life wisdom.
+198. Evil Insult API - For creative testing.
+199. Cat Facts - Random feline knowledge.
+200. Dog API - Random canine images and breeds.
+201. NASA Astronomy Picture of the Day (APOD) - Daily space art.
+
+## Government & Public Sector (15+)
+202. US Patent & Trademark - Patent search.
+203. UK Government Data - Public data hub.
+204. Canada Open Data - National datasets.
+205. Australian Govt Data - Open datasets.
+206. Brazil Open Data - Public metadata.
+207. India Open Data - National info repository.
+208. SEC EDGAR API - US public company filings.
+209. FEC API - Campaign finance data.
+210. ClinicalTrials.gov - Global clinical study data.
+211. Chronicling America - Historical newspaper data.
+212. Library of Congress - Cultural records.
+213. Smithsonian Institution - Museum collections.
+214. Art Institute of Chicago - Artwork data.
+215. Met Museum API - Digital collection access.

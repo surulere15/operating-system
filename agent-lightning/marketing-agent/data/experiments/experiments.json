@@ -1,0 +1,23 @@
+{
+  "experiments": [
+    {
+      "id": "EXP-001",
+      "channel": "twitter",
+      "hypothesis": "Thread posts get 2x impressions vs single posts",
+      "variable": "format",
+      "variants": [
+        "thread",
+        "single"
+      ],
+      "metric": "impressions",
+      "status": "active",
+      "created": "2026-04-03T10:14:32.105986+00:00",
+      "data_points": {
+        "thread": [],
+        "single": []
+      },
+      "result": null
+    }
+  ],
+  "next_id": 2
+}
