@@ -1,0 +1,23 @@
+# Nested git repos (pushed separately)
+business_intel_dashboard/
+capital_recovery/
+ecommerce_price_monitor/
+health_fitness_hub/
+insider_alerts/
+job_aggregator/
+news_sentiment_tracker/
+real_estate_intel/
+regulatory_risk_poc/
+regulatory_scraper_bot/
+signalstack/
+smart_route_optimizer/
+social_analytics_pro/
+storm_chaser/
+travel_planning_ai/
+wirebet/
+wirebet-app/
+yahoo-chat-2.0/
+saas_marketplace/
+trading_bots/
+soccer_stats/
+agent-lightning/
