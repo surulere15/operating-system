@@ -1,0 +1,37 @@
+name: CI
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    strategy:
+      matrix:
+        python-version: [3.11]
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+          cache: pip
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip setuptools
+          pip install -r requirements.txt
+          pip install google-cloud-secretmanager google-cloud-pubsub firebase-admin catboost scipy
+      - name: Lint with flake8
+        run: |
+          pip install flake8
+          flake8 .
+      - name: Run tests
+        env:
+          OAUTH_ENCRYPTION_KEY: ${{ secrets.OAUTH_ENCRYPTION_KEY }}
+        run: pytest
