@@ -1,0 +1,6 @@
+[submodule "ViralBeesAI"]
+	path = ViralBeesAI
+	url = git@github.com:surulere15/ViralBeesAI.git
+[submodule "skinminder"]
+	path = skinminder
+	url = https://github.com/surulere15/skinminder.git
